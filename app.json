@@ -1,27 +1,37 @@
 {
   "expo": {
     "name": "PetAdvisor",
-    "slug": "PetAdvisor",
+    "slug": "pet-advisor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "auto",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "userInterfaceStyle": "auto",
+      "bundleIdentifier": "com.derockjr.petadvisor"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "userInterfaceStyle": "auto"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "userInterfaceStyle": "auto"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a668540-ea4e-4e2b-ba7e-4f0fc6e9b4d6"
+      }
+    },
+    "owner": "derockjr"
   }
 }
